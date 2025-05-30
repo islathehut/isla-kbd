@@ -1,0 +1,12 @@
+[submodule "sandevistan44/vik"]
+	path = sandevistan44/pcb/footprints/external/vik
+	url = https://github.com/sadekbaroudi/vik.git
+[submodule "sandevistan44/marbastlib"]
+	path = sandevistan44/pcb/footprints/external/marbastlib
+	url = https://github.com/ebastler/marbastlib.git
+[submodule "sandevistan44/kiswitch"]
+	path = sandevistan44/pcb/footprints/external/kiswitch
+	url = https://github.com/islathehut/kiswitch.git
+[submodule "sandevistan44/kbd"]
+	path = sandevistan44/pcb/footprints/external/kbd
+	url = https://github.com/foostan/kbd.git
