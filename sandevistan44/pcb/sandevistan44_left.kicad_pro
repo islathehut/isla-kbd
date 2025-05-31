@@ -53,7 +53,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_to_hole|125536489|130673932|02d13f0d-1237-44b3-9ede-7f854b893b01|1c847b51-264a-4115-a3c8-8c425857b142",
+          ""
+        ],
+        [
+          "hole_to_hole|125536489|130673932|1c847b51-264a-4115-a3c8-8c425857b142|e7a506b7-0324-4929-8c10-1476eba2e272",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

@@ -10,3 +10,6 @@
 [submodule "sandevistan44/kbd"]
 	path = sandevistan44/pcb/footprints/external/kbd
 	url = https://github.com/foostan/kbd.git
+[submodule "sandevistan44/kicad-rp-pico"]
+	path = sandevistan44/pcb/footprints/external/kicad-rp-pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico.git

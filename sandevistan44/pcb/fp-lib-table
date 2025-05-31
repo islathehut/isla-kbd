@@ -11,4 +11,5 @@
   (lib (name "Amphenol Footprint Symbol")(type "KiCad")(uri "${KIPRJMOD}/footprints/Amphenol F3311A7H121004E200 4-pin FPC Connector")(options "")(descr ""))
   (lib (name "TL6340AF160Q")(type "KiCad")(uri "${KIPRJMOD}/footprints/TL6340AF160Q SMD Reset Switch")(options "")(descr ""))
   (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/footprints/external/kbd")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/footprints/external/kicad-rp-pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
 )

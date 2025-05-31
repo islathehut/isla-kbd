@@ -1,4 +1,4 @@
-1081917091600632
+982295384984421
 Amphenol Footprint Symbol
 AMPHENOL_F3311A7H121004E200
 
@@ -42,6 +42,13 @@ NHD-1.91-176176UBC3_3_standoff
 23
 20
 Library
+RPi_Pico_SMD_TH_no_through_holes
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+43
+43
+Library
 SW_Hotswap_Kailh_Choc_V2_1.00u
 Kailh Choc keyswitch V2 CPG1353 V2 Hotswap Keycap 1.00u
 Kailh Choc Keyswitch Switch CPG1353 V2 Hotswap Cutout Keycap 1.00u
@@ -77,6 +84,20 @@ TH 1N4148 Diode (short)
 2
 2
 Library
+Universal Switch Footprint (1.5u)
+
+
+0
+3
+2
+Library
+Universal Switch Footprint (1u)
+
+
+0
+3
+2
+Library
 keyswitch_hole
 
 
@@ -97,6 +118,27 @@ name_ascii
 0
 0
 0
+MCU_RaspberryPi_and_Boards
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+MCU_RaspberryPi_and_Boards
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+MCU_RaspberryPi_and_Boards
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 Mounting Hole
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
@@ -2953,307 +2995,6 @@ SW_TL6340AF160Q
 0
 5
 5
-kbd
-Breakaway_Tabs
-
-
-0
-0
-0
-kbd
-LED_WS2812B-PLCC4
-http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
-LED NeoPixel
-0
-4
-4
-kbd
-MJ-4PP-9
-
-
-0
-4
-4
-kbd
-OLED
-Connecteur 6 pins
-CONN DEV
-0
-4
-4
-kbd
-PJ-398A-5A_PJ-399B-6A
-
-usb usb-c 2.0 pd
-0
-6
-3
-kbd
-Pico-EZmate_PCB_Header
-Molex Pico-EZmate series connector, 78171-0004 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator
-connector Molex Pico-EZmate side entry
-0
-22
-5
-kbd
-ProMicro
-
-
-0
-24
-24
-kbd
-ResetSW
-
-
-0
-2
-2
-kbd
-ST-0277D00-052-142
-
-usb usb-c 2.0 pd
-0
-5
-4
-kbd
-TS-1088R-02026
-
-usb usb-c 2.0 pd
-0
-2
-2
-kbd
-TYPE-C-31-M-13C
-USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
-usb usb-c 2.0 pd
-0
-20
-17
-kbd
-YS-SK6812MINI-E
-
-
-0
-4
-4
-kbd
-corne-horizontal
-
-
-0
-0
-0
-kbd
-corne-logo
-
-
-0
-0
-0
-kbd
-corne-logo-horizontal
-
-
-0
-0
-0
-kbd
-corne-logo-horizontal-mask
-
-
-0
-0
-0
-kbd
-corne-logo-silk
-
-
-0
-0
-0
-kbd
-corne-mask
-
-
-0
-0
-0
-kbd
-keyswitch_cherrymx_alps_1u
-
-
-0
-3
-2
-kbd
-keyswitch_cherrymx_alps_choc12_1.5u
-
-
-0
-6
-2
-kbd
-keyswitch_cherrymx_alps_choc12_1u
-
-
-0
-6
-2
-kbd
-keyswitch_cherrymx_hotswap_1.5u
-
-
-0
-2
-2
-kbd
-keyswitch_cherrymx_hotswap_1u
-
-
-0
-2
-2
-kbd
-keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12
-
-
-0
-9
-5
-kbd
-keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led
-
-
-0
-4
-2
-kbd
-keyswitch_choc12_hotswap_1.5u
-
-
-0
-2
-2
-kbd
-keyswitch_choc12_hotswap_1u
-
-
-0
-2
-2
-kbd
-keyswitch_choc12_hotswap_1u_rotary_encoder_ec12
-
-
-0
-9
-5
-kbd
-keyswitch_gateron_low_profile_hotswap_1u
-
-
-0
-2
-2
-kbd
-keyswitch_hole
-
-
-0
-0
-0
-marbastlib-choc
-LED_choc_1206R
-Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
-kailh choc 1206 rearmount rear mount led rgb backlight 
-0
-4
-4
-marbastlib-choc
-LED_choc_1206R-ROT
-Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
-kailh choc 1206 rearmount rear mount led rgb backlight
-0
-4
-4
-marbastlib-choc
-LED_choc_6028R
-Add-on for regular choc-footprints with 6028 reverse mount LED
-kailh choc 6028 rearmount rear mount led rgb backlight
-0
-4
-4
-marbastlib-choc
-LED_choc_6028R-ROT
-Add-on for regular choc-footprints with 6028 reverse mount LED
-kailh choc 6028 rearmount rear mount led rgb backlight
-0
-4
-4
-marbastlib-choc
-SW_choc_v1_1.5u
-Footprint for Kailh Choc style switches
-
-0
-2
-2
-marbastlib-choc
-SW_choc_v1_1.25u
-Footprint for Kailh Choc style switches
-
-0
-2
-2
-marbastlib-choc
-SW_choc_v1_1.75u
-Footprint for Kailh Choc style switches
-
-0
-2
-2
-marbastlib-choc
-SW_choc_v1_1u
-Footprint for Kailh Choc style switches
-
-0
-2
-2
-marbastlib-choc
-SW_choc_v1_HS_CPG135001S30_1.5u
-Hotswap footprint for Kailh Choc style switches
-
-0
-6
-2
-marbastlib-choc
-SW_choc_v1_HS_CPG135001S30_1.25u
-Hotswap footprint for Kailh Choc style switches
-
-0
-6
-2
-marbastlib-choc
-SW_choc_v1_HS_CPG135001S30_1.75u
-Hotswap footprint for Kailh Choc style switches
-
-0
-6
-2
-marbastlib-choc
-SW_choc_v1_HS_CPG135001S30_1u
-Hotswap footprint for Kailh Choc style switches
-
-0
-6
-2
-marbastlib-choc
-SW_choc_v1_HS_CPG135001S30_2.25u
-Hotswap footprint for Kailh Choc style switches
-
-0
-6
-2
 marbastlib-various
 CON_FH33J-4S-0.5SH
 Hirose FH33J FFC/FPC connector, FH33J-4S-0.5SH, 4 Pins per row (https://www.hirose.com/product/series/FH33#)
@@ -3639,146 +3380,6 @@ moko mk08a mk08b nRF52840 bluetooth low energy
 0
 60
 58
-marbastlib-xp-choc
-LED_choc_WS2812_2020
-Add-on for regular choc-footprints with WS2812_2020
-kailh choc WS2812 2020 rearmount rear mount led rgb backlight
-0
-4
-4
-marbastlib-xp-choc
-LED_choc_WS2812_2020-ROT
-Add-on for regular choc-footprints with WS2812 2020
-kailh choc WS2812 2020 rearmount rear mount led rgb backlight
-0
-4
-4
-marbastlib-xp-choc
-PLATE_choc
-Break-out tabs for switch and plate multi-purpose-PCBs (kailh choc footprints)
-kailh choc pcb plate break
-0
-0
-0
-marbastlib-xp-choc
-STAB_choc_2u
-Footprint for Kailh Choc style switches
-
-0
-0
-0
-marbastlib-xp-choc
-STAB_choc_6.25u
-Footprint for Kailh Choc style switches
-
-0
-0
-0
-marbastlib-xp-choc
-SW_PG1316S
-Footprint for Kailh PG1316S low profile switch
-Kailh PG1316 Switch
-0
-6
-3
-marbastlib-xp-choc
-SW_choc_MxCombo_1u
-Combined footprint for Kailh Choc and Cherry MX style switches
-
-0
-4
-2
-marbastlib-xp-choc
-SW_choc_Reversible_1u
-Reversible dootprint for Kailh Choc style switches
-
-0
-3
-2
-marbastlib-xp-choc
-SW_choc_v1+v2_1.5u
-Combined footprint for Kailh Choc v1 and v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v1+v2_1.25u
-Combined footprint for Kailh Choc v1 and v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v1+v2_1.75u
-Combined footprint for Kailh Choc v1 and v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v1+v2_1u
-Combined footprint for Kailh Choc v1 and v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v2_1.5u
-Footprint for Kailh Choc v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v2_1.25u
-Footprint for Kailh Choc v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v2_1.75u
-Footprint for Kailh Choc v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v2_1u
-Footprint for Kailh Choc v2 style switches
-
-0
-3
-3
-marbastlib-xp-choc
-SW_choc_v2_HS_CPG135001S30_1.5u
-Hotswap footprint for Kailh Choc v2 style switches
-
-0
-7
-3
-marbastlib-xp-choc
-SW_choc_v2_HS_CPG135001S30_1.25u
-Hotswap footprint for Kailh Choc v2 style switches
-
-0
-7
-3
-marbastlib-xp-choc
-SW_choc_v2_HS_CPG135001S30_1.75u
-Hotswap footprint for Kailh Choc v2 style switches
-
-0
-7
-3
-marbastlib-xp-choc
-SW_choc_v2_HS_CPG135001S30_1u
-Hotswap footprint for Kailh Choc v2 style switches
-
-0
-7
-3
 marbastlib-xp-promicroish
 Elite-C_AC
 Footprint for Elite-C controllers, castellated pads only
