@@ -9,4 +9,5 @@
   (lib (name "TL6340AF160Q")(type "KiCad")(uri "${KIPRJMOD}/footprints/TL6340AF160Q SMD Reset Switch/TL6340AF160Q.kicad_sym")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/footprints/external/marbastlib/symbols/marbastlib-various.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/footprints/external/kicad-rp-pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "PEC11R-4215F-S0024")(type "KiCad")(uri "${KIPRJMOD}/footprints/PEC11R 4215F Footprint Symbol/PEC11R-4215F-S0024.kicad_sym")(options "")(descr ""))
 )

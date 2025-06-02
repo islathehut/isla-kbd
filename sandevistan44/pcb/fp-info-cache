@@ -1,4 +1,4 @@
-982295384984421
+985794580598385
 Amphenol Footprint Symbol
 AMPHENOL_F3311A7H121004E200
 
@@ -97,6 +97,13 @@ Universal Switch Footprint (1u)
 0
 3
 2
+Library
+XDCR_PEC11R-4215F-S0024
+
+
+0
+7
+7
 Library
 keyswitch_hole
 
@@ -1301,6 +1308,13 @@ mounting hole 8.4mm m8
 0
 9
 1
+PEC11R 4215F Footprint Symbol
+XDCR_PEC11R-4215F-S0024
+
+
+0
+7
+7
 SJ2 35954A SMT TR
 CUI_SJ2-35954A-SMT-TR
 
