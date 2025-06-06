@@ -1129,367 +1129,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PEC11R-4215F-S0024:PEC11R-4215F-S0024"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "MT"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PEC11R-4215F-S0024"
-				(at -7.62 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PEC11R-4215F-S0024:XDCR_PEC11R-4215F-S0024"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bourns"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "21.5 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "Rev. 09/19"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PEC11R-4215F-S0024"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Encoder,Rotary,24 Detents,15 mm, Shaft,Switch | Bourns PEC11R-4215F-S0024"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "J.W.Miller/Bourns"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PEC11R-4215F-S0024_0_0"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.794 4.6736)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 2.921 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "COM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SJ2-35954A-SMT-TR:SJ2-35954A-SMT-TR"
 			(pin_names
 				(offset 1.016)
@@ -3423,6 +3062,10 @@
 		(uuid "53dec92f-1e88-49f7-9883-39e370a5170f")
 	)
 	(no_connect
+		(at 39.624 65.024)
+		(uuid "56db8824-70df-41f3-8bf4-f7593e8b5eb8")
+	)
+	(no_connect
 		(at 75.184 24.384)
 		(uuid "68f3d4b3-41e4-4223-b9f4-0a1d1966c726")
 	)
@@ -3443,6 +3086,10 @@
 		(uuid "957c5fb2-f009-4112-8cdb-e75c4bd6170b")
 	)
 	(no_connect
+		(at 39.624 44.704)
+		(uuid "b39f6866-0d7f-4cf7-b33a-c72d856c088f")
+	)
+	(no_connect
 		(at 75.184 26.924)
 		(uuid "b7fb09b5-a856-4240-978f-875a4a707d61")
 	)
@@ -3455,16 +3102,24 @@
 		(uuid "ccc5bb82-0da5-4e0c-b878-cb710b085171")
 	)
 	(no_connect
+		(at 39.624 24.384)
+		(uuid "cd3e2e5f-cbbd-4bee-88c6-0914f9c90e73")
+	)
+	(no_connect
+		(at 39.624 39.624)
+		(uuid "d236c0eb-ff14-4f45-8c53-cf4ef3778244")
+	)
+	(no_connect
 		(at 39.624 32.004)
 		(uuid "dbe423c2-39e2-436a-8ab1-fbe7e59eafd8")
 	)
 	(no_connect
-		(at 100.584 162.56)
-		(uuid "e807484e-48ae-4a5f-a560-3308bf3f596c")
+		(at 39.624 57.404)
+		(uuid "f731e591-5ae7-43da-aef0-2949aafcc0b5")
 	)
 	(no_connect
-		(at 75.184 49.784)
-		(uuid "edbe1923-639a-4633-a8f0-949bc74fd3ad")
+		(at 39.624 59.944)
+		(uuid "f9fd79de-22ed-459f-8267-178cc3fad8e2")
 	)
 	(no_connect
 		(at 39.624 26.924)
@@ -4030,26 +3685,6 @@
 		)
 		(uuid "fd82dd23-c9b8-4304-b83b-972343576369")
 	)
-	(global_label "enc_sw"
-		(shape input)
-		(at 100.584 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "041a425e-dbfe-4536-b576-7c28715622d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.584 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col0"
 		(shape input)
 		(at 119.38 41.656 90)
@@ -4084,26 +3719,6 @@
 		(uuid "0dbcf308-aea7-4f82-b42b-650a87a4a0d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.992 159.131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 39.624 47.244 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1692419a-dd2c-4bfa-9c7e-d46a184ced7e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,18 +3815,18 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "data"
 		(shape input)
-		(at 39.624 44.704 180)
+		(at 39.624 47.244 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "28ca316c-7760-4a42-ae59-183183f1730f")
+		(uuid "280f373c-a945-4e54-bc92-2c2cbd44f182")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 44.704 0)
+			(at 39.624 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,26 +3919,6 @@
 			)
 		)
 	)
-	(global_label "enc_sw"
-		(shape input)
-		(at 39.624 52.324 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37a77303-3b89-4045-aeec-d42e3c71c983")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col4"
 		(shape input)
 		(at 75.184 59.944 0)
@@ -4356,26 +3951,6 @@
 		(uuid "472f63db-5c4e-4e13-8795-c9ed12cd6325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.992 146.431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "enc_a"
-		(shape input)
-		(at 39.624 59.944 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "482ed4ee-a396-4931-911c-2fff4638bb8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,67 +4054,6 @@
 		(uuid "60d3bff6-1ded-4e1d-9386-3c9992391e06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.94 33.9243 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "reset"
-		(shape input)
-		(at 39.624 24.384 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "638d35d6-511f-463f-886f-fc27d8d4909b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "enc_b"
-		(shape input)
-		(at 39.624 57.404 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "810521a8-1442-430b-9557-e060c4a543b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "enc_b"
-		(shape input)
-		(at 120.904 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "849e83ef-b0f8-4908-aaba-87a5de971f04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.904 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,26 +4189,6 @@
 			)
 		)
 	)
-	(global_label "SPI_CS"
-		(shape input)
-		(at 39.624 65.024 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b41ef333-5e5e-4713-a5cf-ad26d3d2420c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D_C"
 		(shape input)
 		(at 39.624 49.784 180)
@@ -4775,18 +4269,18 @@
 			)
 		)
 	)
-	(global_label "enc_a"
+	(global_label "reset"
 		(shape input)
-		(at 120.904 160.02 0)
+		(at 75.184 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d52e4406-3d59-43e2-a0e7-71456ca9fc38")
+		(uuid "cee3c273-476c-41af-b161-0b8740c3790a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.904 160.02 0)
+			(at 75.184 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,18 +4352,18 @@
 			)
 		)
 	)
-	(global_label "data"
+	(global_label "SPI_CS"
 		(shape input)
-		(at 39.624 39.624 180)
+		(at 39.624 52.324 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e6b0c7f8-0764-4070-95e7-a6509f9f5b1a")
+		(uuid "e3ca04b6-7c2e-46ee-a6b2-b479b9e80bfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.624 39.624 0)
+			(at 39.624 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,74 +8773,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 120.904 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ab0f099-0b39-4de6-9a7f-da2c15408971")
-		(property "Reference" "#PWR020"
-			(at 127.254 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.206 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.904 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.904 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.904 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "316aaa15-32a6-4197-a5c0-a57b004d7988")
-		)
-		(instances
-			(project "sandevistan44_left"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 170.18 94.996 90)
 		(unit 1)
@@ -9426,74 +8852,6 @@
 			(project ""
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 100.584 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c1340ba-d433-4f2b-9cda-b649c3da4f67")
-		(property "Reference" "#PWR019"
-			(at 94.234 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.584 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.584 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.584 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "299debfa-b0d4-4b1d-b57f-19b9f723fa7a")
-		)
-		(instances
-			(project "sandevistan44_left"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10051,210 +9409,6 @@
 			(project ""
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PEC11R-4215F-S0024:PEC11R-4215F-S0024")
-		(at 110.744 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd422e58-46e9-477e-8e45-ea8486dd995e")
-		(property "Reference" "ENC1"
-			(at 110.744 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PEC11R-4215F-S0024"
-			(at 110.744 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PEC11R-4215F-S0024:XDCR_PEC11R-4215F-S0024"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bourns"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "21.5 mm"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part/?ref=eda"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Rev. 09/19"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part/?ref=snap"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PEC11R-4215F-S0024"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Encoder,Rotary,24 Detents,15 mm, Shaft,Switch | Bourns PEC11R-4215F-S0024"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "J.W.Miller/Bourns"
-			(at 110.744 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d628fe2d-b78b-4ace-b8b2-ecec69ddf683")
-		)
-		(pin "COM"
-			(uuid "24870317-da3b-4691-9dec-048ebd125491")
-		)
-		(pin "S1"
-			(uuid "e16afff0-035a-4686-96f7-cabbd2104813")
-		)
-		(pin "S2"
-			(uuid "eeab6fc6-6ce4-4ec7-988b-700e2c705ce5")
-		)
-		(pin "2"
-			(uuid "8112d631-853b-407d-925c-c75afb405fc2")
-		)
-		(pin "A"
-			(uuid "3b70f58b-f623-4acf-bc53-cb5af0903f71")
-		)
-		(pin "B"
-			(uuid "ef3ef8e9-8f82-47f9-a920-4c4bec073302")
-		)
-		(instances
-			(project ""
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "ENC1")
 					(unit 1)
 				)
 			)

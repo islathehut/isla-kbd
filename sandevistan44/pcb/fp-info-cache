@@ -1,4 +1,4 @@
-985794083350573
+987543794930814
 Amphenol Footprint Symbol
 AMPHENOL_F3311A7H121004E200
 
@@ -41,6 +41,20 @@ NHD-1.91-176176UBC3_3_standoff
 0
 23
 20
+Library
+PEC11R_23mm_knob
+
+
+0
+7
+7
+Library
+PEC11R_26mm_knob
+
+
+0
+7
+7
 Library
 RPi_Pico_SMD_TH_no_through_holes
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
@@ -97,13 +111,6 @@ Universal Switch Footprint (1u)
 0
 3
 2
-Library
-XDCR_PEC11R-4215F-S0024
-
-
-0
-7
-7
 Library
 keyswitch_hole
 

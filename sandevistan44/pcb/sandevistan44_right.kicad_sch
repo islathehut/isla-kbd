@@ -2111,121 +2111,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SW_PUSH_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 3.81 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_PUSH"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_PUSH_1_0_1"
-				(rectangle
-					(start -4.318 1.27)
-					(end 4.318 1.524)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TL6340AF160Q:TL6340AF160Q"
 			(pin_names
 				(offset 1.016)
@@ -3439,12 +3324,6 @@
 		(uuid "1f2c9a1e-0111-4b5d-8752-a716c6f2ee1b")
 	)
 	(junction
-		(at 156.972 93.472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34e122e6-b5bc-47c2-bc20-057f434694b1")
-	)
-	(junction
 		(at 192.532 62.992)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3547,28 +3426,22 @@
 		(uuid "991d963f-1124-4727-b947-8997ab459afe")
 	)
 	(junction
-		(at 174.752 93.472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a22453d7-8016-436f-9118-a59fa0b40dca")
-	)
-	(junction
 		(at 156.972 62.992)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a35d8c57-cc76-46be-91a1-fcb3b685fc01")
 	)
 	(junction
-		(at 141.732 70.612)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a55021ca-bbfe-4111-8f34-267b0fbc54a4")
-	)
-	(junction
 		(at 192.532 47.752)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa17832c-dd08-4a17-90ba-1129fad8b5bd")
+	)
+	(junction
+		(at 174.752 93.472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad15efcf-2722-4741-80e7-f99ed06d0b58")
 	)
 	(junction
 		(at 156.972 47.752)
@@ -3623,11 +3496,11 @@
 		(uuid "0d279350-0288-4cdf-9dbb-dcaf2c703c63")
 	)
 	(no_connect
-		(at 123.19 136.398)
+		(at 113.538 102.87)
 		(uuid "2752f879-baff-4ed7-ae50-ac700943eb55")
 	)
 	(no_connect
-		(at 86.868 90.043)
+		(at 45.212 95.504)
 		(uuid "55c3c4f6-8e62-418e-b1a9-6c4a5b33ce57")
 	)
 	(no_connect
@@ -3653,16 +3526,6 @@
 	(no_connect
 		(at 72.39 33.782)
 		(uuid "e2c1df38-298a-4fe8-9c5a-e2c5d58dfd82")
-	)
-	(wire
-		(pts
-			(xy 154.432 93.472) (xy 156.972 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0013f418-2e99-4bf7-b997-829b6cffa1ee")
 	)
 	(wire
 		(pts
@@ -3786,6 +3649,16 @@
 	)
 	(wire
 		(pts
+			(xy 174.752 93.472) (xy 192.532 93.472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca05350-062b-4ca5-b507-7720c9f9a2b2")
+	)
+	(wire
+		(pts
 			(xy 174.752 78.232) (xy 192.532 78.232)
 		)
 		(stroke
@@ -3803,16 +3676,6 @@
 			(type default)
 		)
 		(uuid "4436d39f-37e2-4567-a8bd-ef543b1bfc62")
-	)
-	(wire
-		(pts
-			(xy 145.796 93.599) (xy 154.432 93.599)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45fcad30-61c7-46a0-b276-5e5c44afbf37")
 	)
 	(wire
 		(pts
@@ -3846,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 128.778) (xy 143.51 128.778)
+			(xy 137.668 95.25) (xy 133.858 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3863,16 +3726,6 @@
 			(type default)
 		)
 		(uuid "5124f0d1-028b-49ee-b9de-46a0068829c4")
-	)
-	(wire
-		(pts
-			(xy 154.432 93.599) (xy 154.432 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "529a2464-107e-4492-9982-fba6796e3cfb")
 	)
 	(wire
 		(pts
@@ -3946,16 +3799,6 @@
 	)
 	(wire
 		(pts
-			(xy 141.732 70.612) (xy 141.732 85.852)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7a96be-7d83-49f0-bf3d-ddc82e7f0028")
-	)
-	(wire
-		(pts
 			(xy 177.292 55.372) (xy 177.292 70.612)
 		)
 		(stroke
@@ -3996,23 +3839,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.888 133.858) (xy 123.19 133.858)
+			(xy 110.236 100.33) (xy 113.538 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81654294-2be4-45a8-a2ed-ac59cbc2450c")
-	)
-	(wire
-		(pts
-			(xy 156.972 93.472) (xy 174.752 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842c8b18-a5d8-471e-b037-565bdc880ac4")
 	)
 	(wire
 		(pts
@@ -4176,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.752 93.472) (xy 192.532 93.472)
+			(xy 155.702 93.472) (xy 174.752 93.472)
 		)
 		(stroke
 			(width 0)
@@ -4390,7 +4223,7 @@
 			)
 		)
 	)
-	(global_label "row3_r"
+	(global_label "row2_r"
 		(shape input)
 		(at 36.83 26.162 180)
 		(fields_autoplaced yes)
@@ -4402,7 +4235,7 @@
 		)
 		(uuid "2d5f6756-240d-4816-8c0a-fb9952e14167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4324 26.162 0)
+			(at 28.7838 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4287,7 @@
 	)
 	(global_label "enc_a_r"
 		(shape input)
-		(at 143.51 133.858 0)
+		(at 133.858 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4463,7 +4296,7 @@
 		)
 		(uuid "3caa1697-5299-4760-af46-8bc8f449d2b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 133.858 0)
+			(at 133.858 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4393,7 @@
 	)
 	(global_label "enc_b_r"
 		(shape input)
-		(at 143.51 136.398 0)
+		(at 133.858 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4569,7 +4402,7 @@
 		)
 		(uuid "4c6a30f7-6e0c-47ed-a2bf-17b161f132d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 136.398 0)
+			(at 133.858 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4787,7 @@
 	)
 	(global_label "enc_sw_r"
 		(shape input)
-		(at 123.19 128.778 180)
+		(at 113.538 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4963,7 +4796,7 @@
 		)
 		(uuid "936df369-a81f-4752-a0eb-8bbca69d417b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 128.778 0)
+			(at 113.538 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +4849,7 @@
 	)
 	(global_label "row3_r"
 		(shape input)
-		(at 145.796 93.599 180)
+		(at 155.702 93.472 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5026,7 +4859,7 @@
 		)
 		(uuid "a9ddb761-b2a1-42a8-9c6f-2693e6e472c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.6289 93.599 0)
+			(at 147.5349 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +4913,7 @@
 	)
 	(global_label "data_r"
 		(shape input)
-		(at 86.868 95.123 0)
+		(at 45.212 100.584 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5090,7 +4923,7 @@
 		)
 		(uuid "b75de6e8-4dd0-4a1d-8ce9-878fbc409b65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7769 95.123 0)
+			(at 55.1209 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +5139,7 @@
 			)
 		)
 	)
-	(global_label "row2_r"
+	(global_label "row3_r"
 		(shape input)
 		(at 36.83 28.702 180)
 		(fields_autoplaced yes)
@@ -5318,7 +5151,7 @@
 		)
 		(uuid "f57a9925-c5d5-492c-b1ea-bb2edb74613b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4324 28.702 0)
+			(at 28.7838 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1584c9ba-1fef-459f-a340-eee77d356467")
-		(property "Reference" "D38"
+		(property "Reference" "D37"
 			(at 189.992 59.182 0)
 			(effects
 				(font
@@ -6008,159 +5841,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SW_PUSH_1")
-		(lib_id "kbd:SW_PUSH")
-		(at 149.352 85.852 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b6ad082-776d-471e-afc8-21e3864c968e")
-		(property "Reference" "SW32"
-			(at 153.416 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH"
-			(at 149.098 87.757 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:Universal Switch Footprint (1u)"
-			(at 149.352 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.352 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.352 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98f9d650-ed87-4103-b859-60749fa4737a")
-		)
-		(pin "1"
-			(uuid "8a1c1828-836f-4173-a9a1-1c062fbfb9e0")
-		)
-		(instances
-			(project "sandevistan42_longboioled"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 156.972 89.662 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c6ae4ff-7cac-48f2-b856-3ea43928bbff")
-		(property "Reference" "D32"
-			(at 154.432 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 159.512 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:TH 1N4148 Diode (long)"
-			(at 156.972 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.972 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 156.972 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.972 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.972 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5840b2b-0f6b-4448-8e46-25b1095c2c0d")
-		)
-		(pin "1"
-			(uuid "e2349ec7-6e2d-4c24-ad45-bbb3a6d5020a")
-		)
-		(instances
-			(project "sandevistan42_longboioled"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D32")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -6232,7 +5913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.868 100.203 90)
+		(at 45.212 105.664 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6240,7 +5921,7 @@
 		(dnp no)
 		(uuid "24ea4367-8458-4288-934a-fbb7ba1705ff")
 		(property "Reference" "#PWR013"
-			(at 93.218 100.203 0)
+			(at 51.562 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +5930,7 @@
 			)
 		)
 		(property "Value" "GND_r"
-			(at 90.678 100.203 0)
+			(at 49.022 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +5938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.868 100.203 0)
+			(at 45.212 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +5947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.868 100.203 0)
+			(at 45.212 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +5956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.868 100.203 0)
+			(at 45.212 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 128.778 90)
+		(at 137.668 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6433,7 +6114,7 @@
 		(dnp no)
 		(uuid "2d5407d4-9691-455c-a17a-726293a7988e")
 		(property "Reference" "#PWR028"
-			(at 153.67 128.778 0)
+			(at 144.018 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6123,7 @@
 			)
 		)
 		(property "Value" "GND_r"
-			(at 151.13 128.778 0)
+			(at 141.478 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 128.778 0)
+			(at 137.668 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 128.778 0)
+			(at 137.668 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 128.778 0)
+			(at 137.668 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df263bc-a600-427d-ac93-da28630b6b71")
-		(property "Reference" "SW44"
+		(property "Reference" "SW43"
 			(at 206.502 83.058 0)
 			(effects
 				(font
@@ -6546,7 +6227,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW44")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -6710,7 +6391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3659f69a-f27d-44c8-9b4f-cf71b3df11e3")
-		(property "Reference" "SW36"
+		(property "Reference" "SW35"
 			(at 170.942 83.058 0)
 			(effects
 				(font
@@ -6760,7 +6441,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW36")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.888 133.858 270)
+		(at 110.236 100.33 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6777,7 +6458,7 @@
 		(dnp no)
 		(uuid "3ca5d4c4-822e-43e9-a705-19fe15d1d2a8")
 		(property "Reference" "#PWR029"
-			(at 113.538 133.858 0)
+			(at 103.886 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6467,7 @@
 			)
 		)
 		(property "Value" "GND_r"
-			(at 116.078 133.858 0)
+			(at 106.426 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.888 133.858 0)
+			(at 110.236 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.888 133.858 0)
+			(at 110.236 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.888 133.858 0)
+			(at 110.236 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +6521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f35715f-faa1-40a8-ac12-9a34871f633b")
-		(property "Reference" "D39"
+		(property "Reference" "D38"
 			(at 189.992 74.422 0)
 			(effects
 				(font
@@ -6910,7 +6591,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D39")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -6925,7 +6606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41af1c8c-6ba4-4d07-954d-ee8b877ce7c4")
-		(property "Reference" "SW38"
+		(property "Reference" "SW37"
 			(at 188.722 52.578 0)
 			(effects
 				(font
@@ -6975,7 +6656,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW38")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -7262,7 +6943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "497bab08-ab44-4d13-adca-2e4b4e9e1cd5")
-		(property "Reference" "D36"
+		(property "Reference" "D35"
 			(at 172.212 89.662 0)
 			(effects
 				(font
@@ -7332,7 +7013,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D36")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -7510,7 +7191,7 @@
 	)
 	(symbol
 		(lib_id "SJ2-35954A-SMT-TR:SJ2-35954A-SMT-TR")
-		(at 71.628 100.203 0)
+		(at 29.972 105.664 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7518,7 +7199,7 @@
 		(dnp no)
 		(uuid "5a3c7242-7a72-47fd-aab6-f94e0015048a")
 		(property "Reference" "J2"
-			(at 71.628 96.393 0)
+			(at 29.972 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7207,7 @@
 			)
 		)
 		(property "Value" "TRRS"
-			(at 71.628 104.013 0)
+			(at 29.972 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" "SJ2 35954A SMT TR:CUI_SJ2-35954A-SMT-TR"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7243,7 @@
 			)
 		)
 		(property "MF" "Same Sky"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7253,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7263,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7273,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7283,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SJ2-35954A-SMT-TR/Same+Sky/view-part/?ref=eda"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,7 +7293,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7303,7 @@
 			)
 		)
 		(property "PARTREV" "1.04"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7313,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SJ2-35954A-SMT-TR/Same+Sky/view-part/?ref=snap"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +7323,7 @@
 			)
 		)
 		(property "MP" "SJ2-35954A-SMT-TR"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7333,7 @@
 			)
 		)
 		(property "Description_1" "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 4 Conductors, 0 Internal Switches, Audio Jack Connector"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7343,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7353,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 71.628 100.203 0)
+			(at 29.972 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "622a214e-6099-4c03-be78-c2bfb541d78e")
-		(property "Reference" "D37"
+		(property "Reference" "D36"
 			(at 189.992 43.942 0)
 			(effects
 				(font
@@ -7845,7 +7526,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D37")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -8051,7 +7732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63c74b60-e486-46e6-a27f-0ee4cbaed757")
-		(property "Reference" "SW41"
+		(property "Reference" "SW40"
 			(at 206.502 37.338 0)
 			(effects
 				(font
@@ -8101,7 +7782,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW41")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -8116,7 +7797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "671ceff3-63a5-4c92-99a0-56d0c2f048e5")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 207.772 43.942 0)
 			(effects
 				(font
@@ -8186,7 +7867,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bd66510-917a-4a1d-a4ca-c14571025d46")
-		(property "Reference" "D40"
+		(property "Reference" "D39"
 			(at 189.992 89.662 0)
 			(effects
 				(font
@@ -8614,7 +8295,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D40")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81595946-154a-4553-9b07-efcc7b51dc52")
-		(property "Reference" "SW40"
+		(property "Reference" "SW39"
 			(at 188.722 83.058 0)
 			(effects
 				(font
@@ -8679,7 +8360,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW40")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -8931,7 +8612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b238d67-2c29-4edf-a4c2-ce6a8527adab")
-		(property "Reference" "SW39"
+		(property "Reference" "SW38"
 			(at 188.722 67.818 0)
 			(effects
 				(font
@@ -8981,7 +8662,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW39")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -8996,7 +8677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9069c4b1-8786-4dfd-b9f9-c2005530ff86")
-		(property "Reference" "D33"
+		(property "Reference" "D32"
 			(at 172.212 43.942 0)
 			(effects
 				(font
@@ -9066,7 +8747,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D33")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -9081,7 +8762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9184390e-be98-4f99-9d88-643a8379d935")
-		(property "Reference" "SW37"
+		(property "Reference" "SW36"
 			(at 188.722 37.338 0)
 			(effects
 				(font
@@ -9131,7 +8812,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW37")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -9295,7 +8976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "961eb770-6dd0-4c11-b806-858e14e95ce6")
-		(property "Reference" "SW33"
+		(property "Reference" "SW32"
 			(at 170.942 37.338 0)
 			(effects
 				(font
@@ -9345,7 +9026,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW33")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -9360,7 +9041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a10f0155-f232-4bb0-9f4f-ba076f3729ca")
-		(property "Reference" "SW35"
+		(property "Reference" "SW34"
 			(at 170.942 67.818 0)
 			(effects
 				(font
@@ -9410,7 +9091,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW35")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -9489,7 +9170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac2ec8d8-895f-415c-bc70-ba9d3a2d8afb")
-		(property "Reference" "SW43"
+		(property "Reference" "SW42"
 			(at 206.502 67.818 0)
 			(effects
 				(font
@@ -9539,7 +9220,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW43")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -9618,7 +9299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bad64afd-fe78-4503-9cfb-92c56481dfac")
-		(property "Reference" "D43"
+		(property "Reference" "D42"
 			(at 207.772 74.422 0)
 			(effects
 				(font
@@ -9688,7 +9369,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D43")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -10025,7 +9706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c90e2ea9-e894-4366-9a93-29ff61ba5851")
-		(property "Reference" "SW42"
+		(property "Reference" "SW41"
 			(at 206.502 52.578 0)
 			(effects
 				(font
@@ -10075,7 +9756,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW42")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -10083,7 +9764,7 @@
 	)
 	(symbol
 		(lib_id "PEC11R-4215F-S0024:PEC11R-4215F-S0024")
-		(at 133.35 131.318 0)
+		(at 123.698 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10092,7 +9773,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdfb28dd-2d6d-4d2f-95bd-8505bdcb477e")
 		(property "Reference" "ENC1"
-			(at 133.35 118.11 0)
+			(at 123.698 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,15 +9781,15 @@
 			)
 		)
 		(property "Value" "PEC11R-4215F-S0024"
-			(at 133.35 120.65 0)
+			(at 123.698 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Library:XDCR_PEC11R-4215F-S0024"
-			(at 133.35 131.318 0)
+		(property "Footprint" "Library:PEC11R_23mm_knob"
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +9799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +9808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +9817,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +9827,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "21.5 mm"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +9837,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +9847,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +9857,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part/?ref=eda"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +9867,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +9877,7 @@
 			)
 		)
 		(property "PARTREV" "Rev. 09/19"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +9887,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part/?ref=snap"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +9897,7 @@
 			)
 		)
 		(property "MP" "PEC11R-4215F-S0024"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +9907,7 @@
 			)
 		)
 		(property "Description_1" "Encoder,Rotary,24 Detents,15 mm, Shaft,Switch | Bourns PEC11R-4215F-S0024"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +9917,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +9927,7 @@
 			)
 		)
 		(property "MANUFACTURER" "J.W.Miller/Bourns"
-			(at 133.35 131.318 0)
+			(at 123.698 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,7 +9975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb4a94c-ba98-4961-a6b6-78922569688d")
-		(property "Reference" "D44"
+		(property "Reference" "D43"
 			(at 207.772 89.662 0)
 			(effects
 				(font
@@ -10364,7 +10045,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D44")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -10508,7 +10189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e28ba8b6-fa32-4df8-8dca-92f758aa93f0")
-		(property "Reference" "D34"
+		(property "Reference" "D33"
 			(at 172.212 59.182 0)
 			(effects
 				(font
@@ -10578,7 +10259,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D34")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -10586,7 +10267,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 86.868 110.363 270)
+		(at 45.212 115.824 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10594,7 +10275,7 @@
 		(dnp no)
 		(uuid "e6524e63-81ca-4ed2-bab5-77d0a58c2c21")
 		(property "Reference" "#PWR012"
-			(at 83.058 110.363 0)
+			(at 41.402 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10284,7 @@
 			)
 		)
 		(property "Value" "VCC_r"
-			(at 90.678 110.363 0)
+			(at 49.022 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,7 +10292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.868 110.363 0)
+			(at 45.212 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.868 110.363 0)
+			(at 45.212 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.868 110.363 0)
+			(at 45.212 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10721,7 +10402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef06cc95-0659-4193-87d5-4125645b1de4")
-		(property "Reference" "SW34"
+		(property "Reference" "SW33"
 			(at 170.942 52.578 0)
 			(effects
 				(font
@@ -10771,7 +10452,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW34")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -10851,7 +10532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc33b3bc-4b3b-4d13-9e20-4c6eae9f9949")
-		(property "Reference" "D35"
+		(property "Reference" "D34"
 			(at 172.212 74.422 0)
 			(effects
 				(font
@@ -10921,7 +10602,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D35")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -10936,7 +10617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc734abf-11f9-4507-bf80-e9e5b104260b")
-		(property "Reference" "D42"
+		(property "Reference" "D41"
 			(at 207.772 59.182 0)
 			(effects
 				(font
@@ -11006,7 +10687,7 @@
 		(instances
 			(project "sandevistan42_longboioled"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
