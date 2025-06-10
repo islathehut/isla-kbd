@@ -4,7 +4,7 @@ This repo is for collecting my keyboard designs.
 
 ## Keyboards
 
-* [sandevistan44](./sandevistan44/README.md)
+* [sandevistan43](./sandevistan43/README.md)
 
 ## Development
 
