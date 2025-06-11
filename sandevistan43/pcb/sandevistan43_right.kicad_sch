@@ -180,6 +180,302 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EVQ-P7C01P:EVQ-P7C01P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EVQ-P7C01P"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EVQ-P7C01P:SW_EVQ-P7C01P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2022.4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EVQP7C01P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TACTILE SW, SPST-NO, 0.05A, 12V, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:SMD; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC; Switch Dimensions (L xRoHS Compliant: Yes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic Electronic Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EVQ-P7C01P_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "F3311A7H121004E200:F3311A7H121004E200"
 			(pin_names
 				(offset 1.016)
@@ -2111,219 +2407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL6340AF160Q:TL6340AF160Q"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TL6340AF160Q"
-				(at -7.62 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TL6340AF160Q:SW_TL6340AF160Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "10.23.2019"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "TL6340AF160Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.55mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "E-Swtich"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TL6340AF160Q_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.048 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.5875) (xy 2.54 1.5875)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.5875) (xy 0 3.4925)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.048 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "kbd:SW_PUSH"
 			(pin_numbers
 				(hide yes)
@@ -4099,28 +4182,6 @@
 			)
 		)
 	)
-	(global_label "reset_r"
-		(shape input)
-		(at 48.133 127.508 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "0a47147d-91ac-4e40-91ba-3bb580c47c8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.6756 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_r"
 		(shape bidirectional)
 		(at 66.548 148.463 180)
@@ -4507,6 +4568,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset_r"
+		(shape input)
+		(at 59.436 127.508 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "61132c25-6e79-4e11-b438-10baeb7adbcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.0611 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5246,124 +5329,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TL6340AF160Q:TL6340AF160Q")
-		(at 55.753 127.508 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "000a40e8-fe84-42c9-a60a-1b4fa0f8b879")
-		(property "Reference" "RSW2"
-			(at 59.563 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH"
-			(at 55.753 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TL6340AF160Q:SW_TL6340AF160Q"
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "10.23.2019"
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "TL6340AF160Q"
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.55mm"
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "E-Swtich"
-			(at 55.753 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45c87034-2eff-44c6-accd-e1daefa5e068")
-		)
-		(pin "2"
-			(uuid "bed42328-05f2-47fe-bc29-1da8e03cf81d")
-		)
-		(instances
-			(project "sandevistan42_longboioled"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "RSW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 156.972 43.942 90)
 		(unit 1)
@@ -6042,7 +6007,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.373 127.508 0)
+		(at 44.196 127.508 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6050,7 +6015,7 @@
 		(dnp no)
 		(uuid "2cc921bd-18eb-40b4-802a-fd5fe0b0ae0d")
 		(property "Reference" "#PWR010"
-			(at 63.373 133.858 0)
+			(at 44.196 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6024,7 @@
 			)
 		)
 		(property "Value" "GND_r"
-			(at 63.373 131.318 0)
+			(at 44.196 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.373 127.508 0)
+			(at 44.196 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.373 127.508 0)
+			(at 44.196 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.373 127.508 0)
+			(at 44.196 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6061,7 @@
 			(uuid "9864dbae-b1e0-48ac-87d4-780e923b9c09")
 		)
 		(instances
-			(project "sandevistan42_longboioled"
+			(project "sandevistan43_right"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "#PWR010")
 					(unit 1)
@@ -8513,6 +8478,201 @@
 			(project ""
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7C01P:EVQ-P7C01P")
+		(at 51.816 127.508 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83eb73f2-5a46-4ed8-8b20-a59f6dbdd11e")
+		(property "Reference" "RSW2"
+			(at 51.816 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7C01P"
+			(at 51.816 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVQ-P7C01P:SW_EVQ-P7C01P"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=eda"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=snap"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQP7C01P"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TACTILE SW, SPST-NO, 0.05A, 12V, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:SMD; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC; Switch Dimensions (L xRoHS Compliant: Yes"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 51.816 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "53d2d7d6-83a1-4980-9ded-6c3e4a29fc35")
+		)
+		(pin "2_2"
+			(uuid "1d32946c-d9ce-47c3-ab5e-b1f39eedf4ef")
+		)
+		(pin "1_2"
+			(uuid "2c4c0f2e-e46d-452e-aa52-4dfeedff0375")
+		)
+		(pin "1_1"
+			(uuid "b475c5a6-4a90-4b79-8598-9978b4a03628")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
+					(reference "RSW2")
 					(unit 1)
 				)
 			)
